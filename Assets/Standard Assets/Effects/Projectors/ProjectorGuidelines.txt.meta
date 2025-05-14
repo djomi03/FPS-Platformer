@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d5d58c10e934a4738aa90eb4e904a166
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21064
+  packageName: Standard Assets for Unity 4.6
+  packageVersion: 1.0.3
+  assetPath: Assets/Standard Assets/Effects/Projectors/ProjectorGuidelines.txt
+  uploadId: 149151

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ab70c098a52a04be88096d20e1540cb8
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21064
+  packageName: Standard Assets for Unity 4.6
+  packageVersion: 1.0.3
+  assetPath: Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorLight.shader
+  uploadId: 149151

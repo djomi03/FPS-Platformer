@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c8f4338583b7b7242a37edb836820adc
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21064
+  packageName: Standard Assets for Unity 4.6
+  packageVersion: 1.0.3
+  assetPath: Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorAdditive.shader
+  uploadId: 149151
