@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
@@ -213,7 +213,7 @@ public class kretanje : MonoBehaviour
                 Vector3 cm = Camera.main.transform.forward;
                 StopAllCoroutines();
                 rb.linearVelocity = new Vector3(0, 0, 0);
-                rb.AddForce(cm * 60, ForceMode.Impulse);
+                rb.AddForce(cm * 60 , ForceMode.Impulse);
                 StartCoroutine(AddDrag());
                 if (cardCountActive == 0)
                 {
@@ -307,12 +307,18 @@ public class kretanje : MonoBehaviour
     {
         invulnerable = true;
         float current_drag = 0;
+        //float dragScale = 1f;
 
         while (current_drag < 10)
         {
-            current_drag += Time.deltaTime * 10;
+            current_drag += Time.unscaledDeltaTime * 7;
             rb.linearDamping = current_drag;
-            yield return new WaitForSecondsRealtime(0.002f);
+            //dragScale += 0.03f;
+            yield return null; // čeka sledeći frame
+
+            //current_drag += Time.deltaTime * 10;
+            //rb.linearDamping = current_drag;
+            //yield return new WaitForSecondsRealtime(0.002f);
         }
         invulnerable = false;
         rb.linearVelocity = Vector3.zero;
